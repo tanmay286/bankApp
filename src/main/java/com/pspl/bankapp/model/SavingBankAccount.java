@@ -20,7 +20,7 @@ public class SavingBankAccount extends BankAccount {
 			setBalance(temp);
 		}
 		else 
-			throw new LowBalanceException("Insufficient balance...");
+			throw new LowBalanceException("Insufficient balance in account ...");
 	}
 
 	public void deposit(double amount) {
